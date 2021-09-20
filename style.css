@@ -1,0 +1,48 @@
+/* Show it is fixed to the top */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+.ft {
+    background-color: #F3F6FA;
+}
+
+@media(max-width:767px) {
+    .banner {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:768px) {
+    .dimp {
+        margin-top: 40px;
+    }
+}
+
+
+/* @media(max-width:767px) {
+    .card {
+        margin-top: 50px;
+    }
+} */
+
+@media(max-width:767px) {
+    .ft {
+        box-sizing: border-box;
+    }
+}
+
+
+/* @media(max-width:674px) {
+    .sub_bar-input {
+        width: 50%;
+    }
+} */
